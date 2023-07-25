@@ -1,5 +1,5 @@
 # ITBC_project_DraganaTesic
-This project is the culmination of the [IT Bootcamp](www.itbootcamp.rs) course, demonstrating QA testing solution that leverages manual test case execution and automation software testing using Java programming language, Selenium WebDriver, TestNG framework, Maven build automation tool and Postman API testing tool.
+This project is the culmination of the [IT Bootcamp](https://itbootcamp.rs/kursevi/testiranje-softvera-qa/) course, demonstrating QA testing solution that leverages manual test case execution and automation software testing using Java programming language, Selenium WebDriver, TestNG framework, Maven build automation tool and Postman API testing tool.
 
 
 PROJECT  OBJECTIVES:
