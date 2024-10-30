@@ -18,14 +18,12 @@ public class RadioButtonPage extends BasePage {
     }
 
     public WebElement getYesButton() {
-        yesButton = getDriver().findElement(By.cssSelector("#app > div > div > div.row > div.col-12.mt-4.col-md-6 > " +
-                "div:nth-child(2) > div:nth-child(2)"));
+        yesButton = getDriver().findElement(By.cssSelector("#app > div > div > div > div.col-12.mt-4.col-md-6 > div:nth-child(3) > div:nth-child(2) > label"));
         return yesButton;
     }
 
     public WebElement getImpressiveButton() {
-        impressiveButton = getDriver().findElement(By.cssSelector("#app > div > div > div.row > " +
-                "div.col-12.mt-4.col-md-6 > div:nth-child(2) > div:nth-child(3)"));
+        impressiveButton = getDriver().findElement(By.cssSelector("#app > div > div > div > div.col-12.mt-4.col-md-6 > div:nth-child(3) > div:nth-child(3) > label"));
         return impressiveButton;
     }
 

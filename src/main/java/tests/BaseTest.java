@@ -27,7 +27,7 @@ public class BaseTest {
 
     @BeforeClass
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Gaga\\Desktop\\chrome driver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Gaga\\Desktop\\chrome driver\\chromedriver-win64\\chromedriver.exe");
         driver = new ChromeDriver();
         wait = new WebDriverWait(driver, Duration.ofSeconds(15));
         actions = new Actions(driver);
@@ -110,7 +110,6 @@ public class BaseTest {
     public void waitPageLoads(String endpoint) {
         wait.until(ExpectedConditions.urlContains(endpoint));
     }
-
 
     @AfterClass
     public void cleanUp() {

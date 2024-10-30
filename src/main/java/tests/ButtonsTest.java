@@ -7,6 +7,7 @@ public class ButtonsTest extends BaseTest {
     @Test
     public void checkDoubleClickMeButton() {
         getButtonsPage().open();
+        scrollDown(400);
         doubleClick(getButtonsPage().getDoubleClickMeButton());
         assertVisibilityOfElement(getButtonsPage().getDoubleClickMessage());
     }
@@ -14,6 +15,7 @@ public class ButtonsTest extends BaseTest {
     @Test
     public void checkRightClickMeButton() {
         getButtonsPage().open();
+        scrollDown(600);
         rightClick(getButtonsPage().getRightClickMeButton());
         assertVisibilityOfElement(getButtonsPage().getRightClickMessage());
     }
@@ -21,6 +23,7 @@ public class ButtonsTest extends BaseTest {
     @Test
     public void checkClickMeButton(){
         getButtonsPage().open();
+        scrollDown(600);
         clickElement(getButtonsPage().getDynamicClickMeButton());
         assertVisibilityOfElement(getButtonsPage().getDynamicClickMessage());
     }
